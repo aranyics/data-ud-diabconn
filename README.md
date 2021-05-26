@@ -2,6 +2,11 @@
 Data for manuscript entitled "Topological Dissimilarities of Hierarchical Resting Networks in Type 2 Diabetes Mellitus and Obesity"
 
 
+[![DOI](https://zenodo.org/badge/370732223.svg)](https://zenodo.org/badge/latestdoi/370732223)
+
+
+
+
 ## Required R packages
 library(stringr)
 library(igraph)
