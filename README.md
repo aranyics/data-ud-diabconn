@@ -5,21 +5,24 @@ Data for manuscript entitled "Topological Dissimilarities of Hierarchical Restin
 [![DOI](https://zenodo.org/badge/370732223.svg)](https://zenodo.org/badge/latestdoi/370732223)
 
 
+## Analysis workflow
 
+### Prerequisites
 
-## Required R packages
-library(stringr)
-library(igraph)
-library(assortnet)
-library(scales)
-library(reshape2)
-library(ggplot2)
-library(cowplot)
-library(RColorBrewer)
+First, fMRI data needs to be preprocessed
 
+### 1_coordAdjust
 
-## Running the scripts
-1. Specify the path where diabconntable.R is found in line 8 of conngraphstat.R
-YOUR.SCRIPT.PATH = ''
+Independent component analysis-based group-level adjustment of selected region coordinates.
 
-2. Run script conngraphstat.R
+### 2_DCM
+
+Extraction of regional time-series and estimation of effective connectivity parameters with dynamic causal modelling (DCM).
+
+### 3_PEB
+
+Group-level modelling of DCM connectivity with parametric empirical Bayes (PEB)
+
+### 4_graphTheory
+
+Graph theoretical analysis of group-level networks.

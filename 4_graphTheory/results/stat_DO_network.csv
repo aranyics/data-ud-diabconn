@@ -1,0 +1,19 @@
+matrix,parameter,interaction,Obesity,T2DM
+WDCM,assortativity,intra-network,0.04,0.033
+WDCM,assortativity,intra-network,0.089,0.075
+WDCM,assortativity,intra-network,0.004,0.002
+WDCM,assortativity,inter-network,0.206,0.221
+WDCM,assortativity,inter-network,0.277,0.315
+WDCM,assortativity,inter-network,0.125,0.099
+WDCM,strength,intra-network,2.953,3.526
+WDCM,strength,intra-network,6.614,8.068
+WDCM,strength,intra-network,0.271,0.25
+WDCM,strength,inter-network,15.234,23.853
+WDCM,strength,inter-network,20.512,34.125
+WDCM,strength,inter-network,9.259,10.761
+WDCM,balance (-log10(p)),intra-network,0.776,1.32
+WDCM,balance (-log10(p)),intra-network,2.037,2.408
+WDCM,balance (-log10(p)),intra-network,0.016,0.428
+WDCM,balance (-log10(p)),inter-network,1.245,3.059
+WDCM,balance (-log10(p)),inter-network,3.401,7.725
+WDCM,balance (-log10(p)),inter-network,0.011,0.617
